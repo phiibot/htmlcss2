@@ -1,0 +1,125 @@
+#app {				/*onglet apprendre du site*/
+	background-image:url("images.jpeg");	/*fond général de la page*/ 
+	display:flex;
+	justify-content:space-between;
+	background-repeat: no-repeat;
+	background-size:cover;						/*image qui s'adapte à la taille de la fenêtre*/
+	height:100vh;		/*hauteur de 100%*/
+	width:100%;
+	border-bottom: 1px solid white;
+}
+
+.orange{
+	width:150%;/*ajuste la taille du cadre orange */
+	display:inline-block;
+	font-family:Courier, monospace;	
+	background-color:#cc5200;
+	font-size:25px;
+	padding-top:6%;
+	overflow:auto;
+	min-width:20%;
+}
+
+.orange h1{
+	color:#FFF;
+	font-size:40px;
+	margin-left:10%;
+	margin-right:10%;
+}
+
+.cadres {
+	display:flex;
+	background-color:none;
+	flex-direction:column;
+	overflow:auto;
+}
+
+.blignes{
+	display:flex;
+	flex-direction:line;
+}
+
+.sommaireapp {
+	border:solid 3px;
+	font-family: Serial;
+	border-radius:10px;
+	color: black;
+
+	margin-left:10%;
+	margin-right:10%;
+	overflow:auto;
+	padding:8%;
+}
+
+#S1{
+	margin-top:8%;
+	border:solid 1px;
+	font-family: Serial;
+	border-radius:10px;
+	color: white;
+	background-color:grey;
+	font-size:16px;
+	margin-left:10%;
+	margin-right:1%;
+	overflow:auto;
+}
+#S2{
+	margin-top:8%;
+	border:solid 1px;
+	font-family: Serial;
+	border-radius:10px;
+	color: white;
+	background-color:grey;
+	font-size:16px;
+	margin-right:1%;
+	overflow:auto;
+} 
+#S3{
+	margin-top:8%;
+	border:solid 1px;
+	font-family: Serial;
+	border-radius:10px;
+	color: white;
+	background-color:grey;
+	font-size:16px;
+	margin-right:1%;
+	overflow:auto;
+} 
+
+#S4{
+	margin-top:8%;
+	border:solid 1px;
+	font-family: Serial;
+	border-radius:10px;
+	color: white;
+	background-color:grey;
+	font-size:16px;
+	margin-right:10%;
+	overflow:auto;
+} 
+#S5{
+	border:solid 1px;
+	font-family: Serial;
+	border-radius:10px;
+	color: white;
+	background-color:grey;
+	font-size:16px;
+	margin-top:1%;
+	margin-right:10%;
+	margin-left:10%;
+	overflow:auto;
+	min-height:15%;
+} 
+#S6{
+	border:solid 1px;
+	font-family: Serial;
+	border-radius:10px;
+	color: white;
+	background-color:grey;
+	font-size:16px;
+	margin-top:1%;
+	margin-right:10%;
+	margin-left:10%;
+	overflow:auto;
+	min-height:15%;
+} 

@@ -1,0 +1,33 @@
+body {					/*caractéristiques du body */
+	color: black;		/*couleur*/
+	height:100vh;		/*hauteur de 100%*/
+	margin:0px;			/*marges extérieures de la page*/
+	width:100vw;			/*largeur de la page*/
+	flex-direction:column;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+ 
+@media screen and (max-width:640px){
+	.Presentation, #tout, #menu li, .trad, .trad1, .pres1, table, .sommaireapp, #S1, #S2, #S3, #S4, #S5, #S6, .paragraphedernier, footer, figcaption{
+		font-size:10px;
+	}
+	.Presentation {
+		width:50vw;
+	}
+	.pres1 h1,.trad h1,.trad1 h1, .parag, .orange h1, .apdnbloc h3{
+		font-size:12px;
+	}
+	.sommaireapp {
+		border: solid 1px;
+	}	
+	#S1, #S2, #S3, #S4 {
+		height:30%;
+	}
+	section .events{
+		width:50vw;
+	}
+}
+
