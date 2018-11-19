@@ -30,6 +30,7 @@
 }
 
 .cadres {
+	margin-top:10%;
 	display:flex;
 	background-color:none;
 	flex-direction:column;
@@ -46,7 +47,6 @@
 	font-family: Serial;
 	border-radius:10px;
 	color: black;
-
 	margin-left:10%;
 	margin-right:10%;
 	overflow:auto;
@@ -54,7 +54,7 @@
 }
 
 #S1{
-	margin-top:8%;
+	
 	border:solid 1px;
 	font-family: Serial;
 	border-radius:10px;
@@ -66,7 +66,7 @@
 	overflow:auto;
 }
 #S2{
-	margin-top:8%;
+	
 	border:solid 1px;
 	font-family: Serial;
 	border-radius:10px;
@@ -77,7 +77,7 @@
 	overflow:auto;
 } 
 #S3{
-	margin-top:8%;
+	
 	border:solid 1px;
 	font-family: Serial;
 	border-radius:10px;
@@ -89,7 +89,7 @@
 } 
 
 #S4{
-	margin-top:8%;
+	
 	border:solid 1px;
 	font-family: Serial;
 	border-radius:10px;
@@ -110,7 +110,7 @@
 	margin-right:10%;
 	margin-left:10%;
 	overflow:auto;
-	min-height:15%;
+	min-height:10%;
 } 
 #S6{
 	border:solid 1px;
@@ -123,5 +123,5 @@
 	margin-right:10%;
 	margin-left:10%;
 	overflow:auto;
-	min-height:15%;
+	min-height:10%;
 } 

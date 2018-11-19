@@ -1,4 +1,4 @@
-.intro{				/*gros paragraphe de l'onglet présentation*/
+.pres1, .intro{				/*gros paragraphe de l'onglet présentation*/
 	padding:2%;
 	color:white;
 	margin-top:8%;

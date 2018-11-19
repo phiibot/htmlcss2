@@ -48,7 +48,7 @@ h4 a {
 
  
 @media screen and (max-width:900px){
-    .Presentation, #tout, #menu li, .trad, .trad1, .pres1, table, .sommaireapp, #S1, #S2, #S3, #S4, #S5, #S6, .paragraphedernier, footer, figcaption, #apdn .leftBox h1, .events .details p, #apdn .content p, .details a{
+     #tout, #menu li, #pres .trad,#pres .trad1, .pres1, table, .sommaireapp, .paragraphedernier, footer, figcaption, #apdn .leftBox h1, .events .details p, #apdn .content p, .details a{
         font-size:10px;
     }
     
@@ -69,16 +69,19 @@ h4 a {
     .Presentation {
         width:50vw;
     }
+	#pres .trad1, #pres .pres1, #accueil .Presentation, #accueil #mots, #env .intro, #app .orange, #app .cadres {
+		margin-top:12vh;
+	}
     #apdn .events {
         width:100%;
     }
-    .pres1 h1,.trad h1,.trad1 h1, .parag, .orange h1, .apdnbloc h3, .events .details h3 , .time h2 {
+    #accueil .Presentation, .pres1 h1,.trad h1,.trad1 h1, .parag, #app .orange h1, .apdnbloc h3, .events .details h3 , .time h2, #app .cadres h3  {
         font-size:12px;
     }
-    .sommaireapp {
-        border: solid 1px;
-    }    
-    #S1, #S2, #S3, #S4 {
-        height:30%;
-    }
+    #app .sommaireapp {
+		border: solid 1px;
+	}	
+	.blignes{
+		height:70%;
+	}
 }
