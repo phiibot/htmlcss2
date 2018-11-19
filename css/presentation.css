@@ -1,0 +1,86 @@
+.intro{				/*gros paragraphe de l'onglet présentation*/
+	padding:2%;
+	color:white;
+	margin-top:8%;
+	margin-left:4%;
+	background-color:rgba(255,255,255,0.1);
+	margin-right:4%;
+	margin-bottom:8%;
+	font-size:25px;
+	font-weight:bold;
+	overflow:auto;
+	
+}
+
+
+#pres {				/*onglet présentation du site*/
+	background-image:url("image4.jpg");		/*fond général de la page*/
+	background-repeat: no-repeat;
+	background-size:cover;		 				/*image qui s'adapte à la taille de la fenêtre*/
+	height:100vh;		/*hauteur de 100%*/
+	width:100%;
+	color:white;
+	display:flex;
+	flex-direction:line;
+}
+#pres .premier 
+{
+	font-family:arial;
+	font-size:12px;
+}
+
+.titre {
+	color:red;
+	font-size:25px;
+}
+
+
+.pres1 hr { /*ligne présentation*/
+  height: 1px;
+  color: #F00;
+  margin-left:20%;
+  margin-right:20%;
+  overflow:auto;
+}
+
+.pres1 h1{
+	text-align:center;
+}
+
+.droite {
+	display:flex;
+	flex-direction:column;
+	margin-right:5vw;
+	margin-left:5vw;
+	margin-top:8%;
+	margin-bottom:8%;
+}
+
+.trad {
+    background-color:rgba(255,255,255,0.1);
+    padding:2% 1% 2% 5%;
+    font-size:20px;
+    border-radius:10px;
+	overflow:auto;
+}
+.trad1 {
+    background-color:rgba(255,255,255,0.5);
+    padding:2% 1% 2% 5%;
+    font-size:20px;
+    color:black;
+    border-radius:10px;
+	overflow:auto;
+}
+
+.pres1 {
+	background-color:rgba(255,255,255,0.1);
+	margin-top:8%;
+	margin-bottom:5%;
+	margin-left:5%;
+	padding:20px 20px 20px 20px;
+	width:100%;
+	overflow:auto;
+	font-size:11px;
+	
+}
+

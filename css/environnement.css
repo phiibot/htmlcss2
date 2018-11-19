@@ -1,0 +1,52 @@
+#env {			/*onglet environnement du site*/
+	background-image:url("image3.png");				/*fond général de la page*/ 
+	display:flex;
+	justify-content:space-between;
+	padding-right:0px;
+
+	background-repeat: no-repeat;
+	background-size:cover;						/*image qui s'adapte à la taille de la fenêtre*/
+	height:100vh;		/*hauteur de 100%*/
+	width:100%;
+	
+	font-family:arial;
+	font-size:12px;
+}
+
+
+table { /*Propriété du tableau*/
+
+	
+	margin-top: 1%;
+	margin-left: 2%;
+	margin-right:2%;
+	margin-bottom:2%;
+	color:white;
+	font-size:20px;	
+}
+
+td, th {
+	background-color:grey;
+	border: thin solid rgba(255,255,255,0.1);
+	height:20vh;
+	color:white;
+	text-align:center;
+}
+
+#env hr, #app hr { /*ligne présentation*/
+  height: 1px;
+  color: #F00;
+  margin-left:40%;
+  margin-right:40%;
+  background-color: #F00;
+  border: 0;
+}
+
+#env a {
+	text-decoration:bold;
+	color:#FFF;
+}
+
+#env a:hover {
+	color:#000;
+}

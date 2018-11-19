@@ -1,0 +1,84 @@
+body {					/*caractéristiques du body */
+	color: black;		/*couleur*/
+	height:100vh;		/*hauteur de 100%*/
+	margin:0px;			/*marges extérieures de la page*/
+	width:100vw;			/*largeur de la page*/
+	
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.item1 {
+	margin-right:0;
+	background-color:none;
+	color:white;
+	writing-mode:vertical-rl;
+	text-orientation:mixed;
+	position:fixed;
+	background-color:rgba(255,255,255,0.3);
+	padding:5px;
+	height:15%;
+	width:4%;
+	text-align:center;
+	vertical-align:center;
+}
+
+h4 a {
+	text-decoration:none;
+	color:white;
+	font-size:16px;
+}
+
+.item2 {
+	margin-right:0;
+	background-color:none;
+	color:white;
+	margin-top:30%;
+	writing-mode:vertical-rl;
+	text-orientation:mixed;
+	position:fixed;
+	background-color:rgba(255,255,255,0.3);
+	padding:5px;
+	height:15%;
+	width:4%;
+	text-align:center;
+}
+
+ 
+@media screen and (max-width:900px){
+    .Presentation, #tout, #menu li, .trad, .trad1, .pres1, table, .sommaireapp, #S1, #S2, #S3, #S4, #S5, #S6, .paragraphedernier, footer, figcaption, #apdn .leftBox h1, .events .details p, #apdn .content p, .details a{
+        font-size:10px;
+    }
+    
+    .content{
+        width:100%
+    }
+    #apdn .apdnbloc{
+        margin-top:15vh;
+        width:70vw;
+        display:flex;
+        flex-direction:column;
+        overflow:auto;
+    }
+    #apdn .ul{
+        margin-left:50px;
+        width:75%;
+    }
+    .Presentation {
+        width:50vw;
+    }
+    #apdn .events {
+        width:100%;
+    }
+    .pres1 h1,.trad h1,.trad1 h1, .parag, .orange h1, .apdnbloc h3, .events .details h3 , .time h2 {
+        font-size:12px;
+    }
+    .sommaireapp {
+        border: solid 1px;
+    }    
+    #S1, #S2, #S3, #S4 {
+        height:30%;
+    }
+}
