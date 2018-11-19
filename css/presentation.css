@@ -1,4 +1,4 @@
-.intro{				/*gros paragraphe de l'onglet présentation*/
+.pres1, .intro{				/*gros paragraphe de l'onglet présentation*/
 	padding:2%;
 	color:white;
 	margin-top:8%;
@@ -19,10 +19,9 @@
 	background-size:cover;		 				/*image qui s'adapte à la taille de la fenêtre*/
 	height:100vh;		/*hauteur de 100%*/
 	width:100%;
-	border-bottom: 1px solid white;
 	color:white;
 	display:flex;
-	justify-content: space-around;
+	flex-direction:line;
 }
 #pres .premier 
 {
@@ -84,3 +83,4 @@
 	font-size:11px;
 	
 }
+

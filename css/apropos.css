@@ -1,26 +1,14 @@
 #apdn {					/*onglet à propos de nous du site*/
 	background-image:url("image5.jpg");	/*fond général de la page*/ 
 	display:flex;
-	flex-direction:column;
-	justify-content:space-between;
 	padding-right:0px;
 	background-repeat: no-repeat;
 	background-size:cover;					/*image qui s'adapte à la taille de la fenêtre*/
 	height:100vh;		/*hauteur de 100%*/
 	width:100%;
 	color:black;
+	flex-direction:column;
 }
-
-.ensemble {
-	 display:flex;
-}
-
-.apdnbloc h3{
-	color:red;
-	font-size:1.875em;
-	text-decoration:underline;
-}
-
 
 .apdnbloc {
 	border:solid 3px;
@@ -28,131 +16,119 @@
 	margin-top:8%;
 	margin-left:80px;
 	border-radius:10px;
-	text-align:center;
 	background-color:Lavender;
 	width:90%;
 	height:70%;
 	overflow:auto;
-}
-
-
-section { /*gros bloc, réunit tous blocs imbriqués*/
-	width: 100%;
-	height: 73vh; /*règle la taille de la totalité*/
-	background-color:Lavender;
-	background-size: cover;
-
+	display:flex;
+	justify-content:space-between;
 	
 }
-section .leftBox { /*bloc de gauche*/
+
+.leftBox { /*bloc de gauche*/
 	width:40%;
-	float: left;
-	margin-left:7vh;
-	padding:100px;
-	box-sizing: border-box;
+	padding:10%;
+	text-align:center;
 }
-section .leftBox .content {/*contenu et design bloc gauche*/
+.content {/*contenu et design bloc gauche*/
 	color: #fff;
 	background: rgba(0,0,0,.5);
 	padding:40px;
 	transition: .5s;
 }
-section .leftBox .content:hover {
+
+.content:hover {
 	background: #e91e63; /*le met en rouge quand on passe dessus*/
 }
-section .leftBox .content h1 {/*titre bloc gauche*/
+
+.content h1 {/*titre bloc gauche*/
 	margin:0;
 	padding:0;
 	font-size:6vh;
 	text-transform:uppercase;
 	}
-section .leftBox .content p{ /*paragraphe bloc gauche*/
+	
+.content p{ /*paragraphe bloc gauche*/
 	margin: 10px 0 0;
 	padding:0;
 	}
-section .events { /*bloc de droite (les 2 petits)*/
-	position:relative;
+	
+.events { /*bloc de droite (les 2 petits)*/
 	width: 50%;
 	height: 100%;
 	background: rgba(0,0,0,.5);
-	float: right;
-	box-sizing: border-box;
-}
-section .events ul { /*liste dans le bloc*/
-	
-	position:absolute;
 	top:55%;
-	transform: translateY(-50%);
 	margin:0;
-	padding:40px;
-	box-sizing: border-box;
 }
-section .events ul li{
+
+.ul{
 	list-style:none;
 	background:#fff;
-	box-sizing: border-box;
-	height:200px;
-	margin: 15px 0;
-	
+	height:35%;
+	margin-left:15px;
+	margin-bottom:15px;
+	margin-top:15px;
+	display:flex;
+	width:60%;
 }
-section .events ul li .time{
-	position:relative;
+
+.time{
 	padding:20px; 
 	background:#262626;
-	box-sizing:border-box;
 	width: 30%; /*lié au width 70%*/
-	height:100%;
-	float: left;
 	text-align:center;
-	
+	font-size:35px;
 }
-section .events ul li:hover .time{/*contenu en rouge quand on passe dessus*/
+
+.time:hover{/*contenu en rouge quand on passe dessus*/
 	background: #e91e63;
 }
-section .events ul li .time h2{
-		position:absolute;
+
+.time h2{
 		margin:0;
 		padding:0;
 		top:50%;
-		left:50%;
-		transform:translate(-50%, -50%);  
+		left:50%; 
 		color:#fff;
-		font-size:3.125em;
-		line-height:1.875em;
 }
-section .events ul li .time h2 span{
-	font-size:4vh;
-}
-section .events ul li .details{
+
+.details{
 	padding:20px;
 	background:#fff;
-	box-sizing:border-box;
 	width:70%; /*lié au 30%*/
-	height: 100%;
-	float: left;
+	text-align:center;
+	overflow:auto;
 }
-section .events ul li .details h3{
-	position:relative;
+
+.details h3{
 	margin:0;
 	padding:0;
-	font-size:1.375em;
+	font-size:25px;
+	color:red;
+	text-decoration:underline;
 }
-section .events ul li .details p{
-	position:relative;
+
+.details p{
 	margin:10px 0 0;
 	padding:0;
-	font-size:0.938em;
+	font-size:15px;
 }
-section .events ul li .details a  {
+
+.details a  {
+	margin-top:5%;
 	display:inline-block;
 	text-decoration:none;
 	padding: 10px 15px ;
 	border: 2px solid #262626;
 	transition:.5s;
-	
 }
-section .events ul li .details a:hover  {	
+
+.details a:hover  {	
 	background:#e91e63;
 	color:#fff;
 	border-color:#e91e63;
 }
+
+
+
+
