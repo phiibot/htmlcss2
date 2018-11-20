@@ -1,0 +1,4 @@
+Responsive iphone / ipad / tous écrans
+Responsive chrome (tout bon)
+Responsive edge (sauf boutons qui se mettent à gauche au lieu de droite)
+Responsive ie (page présentation buggée)
