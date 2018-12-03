@@ -1,29 +1,25 @@
 /*propriétés du header */
 
 header {				
-	background-color: #3d3d5c;
+	background-color: rgba(0,0,0,0);
 	display:flex;
-	margin-top:0px;
 	position:fixed;
 	top:0;
 	width:100%;
-	height:10vh;
-	min-height:50px;
-	animation: slidein 3s;
-	font-size:16px;
+	font-size:20px;
 	padding-bottom:1vh;
+	margin-left:15%;
 }
 
 img {			/*logo java */
 	max-width:100%;
 	height: 6vh;
-	margin-left:5vw;
-	padding-top:2vh;
 	vertical-align:middle;
 }
 
 header img:hover {
 	transform:scale(1.5);
+
 }
 
 
@@ -43,6 +39,7 @@ display: inline-block;     /*mettre les éléments listés les uns à côté des
 vertical-align:middle;
 padding-top:0.5vh;
 padding-bottom:0.5vh;
+box-sizing:border-box;
 
 }
 
@@ -53,10 +50,15 @@ display:inline-block;	/* met le menu sous forme de bloc */
 padding:1vw 3vw;		/* taille du bloc */
 color:#fff;				/*couleur de la police */
 font-family:Comic Sans MS, Comic Sans, cursive;
+
 }
 
-#menu li:hover a{
-color:#4A4A48;				/* Met le texte en gris foncé quand on passe dessus */
+#menu a:hover{
+color:#913A00;				/* Met le texte en gris foncé quand on passe dessus */
+cursor:pointer;
+border: 1px solid;
+border-color:#913A00;
+border-radius:10px;
 }
  
 #menu li:active a{

@@ -3,17 +3,47 @@
 	display:flex;
 	justify-content:space-between;
 	padding-right:0px;
-	
-	background-image:url(image.jpg);		/*fond général de la page*/ 
+	overflow:auto;
+	background-image:url(image4.jpg);		/*fond général de la page*/ 
 	background-repeat: no-repeat;
 	background-size:cover;						/*image qui s'adapte à la taille de la fenêtre*/
 	height:100vh;				/*hauteur de 100%*/
 	margin:0px;					/*marges extérieures de la page*/
 	width:100%;
+	flex-direction:column;
+	
+}
+
+#global{
+	display:flex;
 	flex-direction:line;
 	
 }
 
+.hjt{
+	font-size:200px;
+	font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+	color:#FFF;
+	text-shadow: 5px 5px 5px 5px grey;
+	margin-top:-5%;
+}
+
+.bouton {
+	color:white;
+	font-size:25px;
+	margin-top:-15%;
+	margin-left:45%;
+	margin-right:45%;
+	background-color:grey;
+	border-radius:10px;
+	box-shadow:5px 5px 5px white;
+	margin-bottom:10%;
+}
+
+.bouton a{
+	text-decoration:none;
+	color:white;
+}
 
 
 .Presentation {				/*Paragraphe d'accroche du site*/
