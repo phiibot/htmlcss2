@@ -20,63 +20,90 @@
 		<link rel="stylesheet" type="text/css" href="CSS/environnement.css" media="all" />
 		<link rel="stylesheet" type="text/css" href="CSS/header_footer.css" media="all" />
 		<link rel="stylesheet" type="text/css" href="CSS/presentation.css" media="all" />
-
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css" media="all" />
+		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+		
 
 </head>
-<header>
 
-	<nav>
-		<ul id="menu">
-			<div><li><a href="pres.html">Pr&eacutesentation</a></li></div>
-			<div><li><a href="env.html">Environnement</a></li></div>
-			<div><li><a href="#accueil"><img src="CSS/logo.png" alt="logo" /></a></li></div>
-			<div><li><a href="app.html">Apprendre</a></li></div>
-			<div><li><a href="apdn.html">A propos</a></li></div>
-		</ul>
-	</nav>
-
-</header>
 <body>
+
+	<div class="row">
+	
+
+			<div class="navbar  navbar-fixed-top">
+				<ul id="menu">
+					<div><li><a href="pres.html">Pr&eacutesentation</a></li></div>
+					<div><li><a href="env.html">Environnement</a></li></div>
+					<div class="spec"><li><a href="#accueil"><img src="CSS/logo.png" alt="logo" /></a></li></div>
+					<div><li><a href="app.html">Apprendre</a></li></div>
+					<div><li><a href="apdn.html">A propos</a></li></div>
+				</ul>
+			</div>
+
+	
+	</div>
+
 	
 
 		<div id="accueil">
-			<div class="hjt">
-				<h1><center>Java</center></h1>
-			</div>
-			<div class="bouton">
-				<a href="#global"><p><center>En savoir plus</center></p></a>
-			</div>
-			<div id="global">
+			<div class="row">
+				<div class="col-md-3">
+					<div class="Presentation">
+						<p>Vous avez toujours voulu coder et vous ne saviez pas quel langage apprendre ?</br>Vous vous êtes finalement lancés mais est venu le problème de la complexité du langage ?</br>Que dois-je apprendre? Qu'est-ce qui est vraiment important?</br>Vous êtes au bon endroit!</br>Nous pouvons vous orienter selon vos envies et vos attentes, le tout dans l'univers complet et intuitif du Java...</p>
+						<a class="lienci" href="pres.html">En savoir plus</a>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="row">
+						<div class="hjt">
+							<h1><center>Java</center></h1>
+						</div>
+					</div>
+					<div class="row">
+						<div class="bouton1">
+							<p><center>En savoir plus</center></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-2">
+					<div id="tout">
+						<div id="mots">
+							<p><strong>Java en quelques mots</strong></p>
+							</br>
+							<p><strong>17.026%</strong></br>Des développeurs utilisent Java</p>
+							</br>
+							<p><strong>2ème</strong></br>Langage de prorammation</br>Derrière le C</p>
+							</br>
+							<p><strong>23 mai 1995</strong></br>Date de présentation officielle</p>
+							</br>
+							<p><strong>Grande portabilité</strong></br>Entre les Systèmes d'Exploitation</p>
+						</div>	
+					</div>
+				</div>
+				<div class="col-md-1">
+				<div class="items">
+					<div class="item1">
+						<a href ="app.html"><i style ="color: orange;" class="fab fa-leanpub fa-3x"></i></span></a></br>
+						<p>Se former</p>
+					</div>
 				
-				<div class="Presentation">
-					<!--<h1 class="t">Apprendre</br>Le Java</h1>-->
-					<p>Vous avez toujours voulu coder et vous ne saviez pas quel langage apprendre ?</br>Vous vous êtes finalement lancés mais est venu le problème de la complexité du langage ?</br>Que dois-je apprendre? Qu'est-ce qui est vraiment important?</br>Vous êtes au bon endroit!</br>Nous pouvons vous orienter selon vos envies et vos attentes, le tout dans l'univers complet et intuitif du Java...</p>
-					<a class="lienci" href="pres.html">En savoir plus</a>
-				</div>
-			
-				<div id="tout">
-					<div id="mots">
-						<p><strong>Java en quelques mots</strong></p>
-						</br>
-						<p><strong>17.026%</strong></br>Des développeurs utilisent Java</p>
-						</br>
-						<p><strong>2ème</strong></br>Langage de prorammation</br>Derrière le C</p>
-						</br>
-						<p><strong>23 mai 1995</strong></br>Date de présentation officielle</p>
-						</br>
-						<p><strong>Grande portabilité</strong></br>Entre les Systèmes d'Exploitation</p>
-					</div>	
+					<div class="item2">
+						<a href="apdn.html"><i style ="color: orange;" class="fas fa-users fa-3x"></i></span></a></br>
+						<p>A propos</p>
+					</div>
 				</div>
 			</div>
-			
-			
+			</div>
 		</div>
-	
-
-	
-	
-	
-	
+			
+	<script>
+		$('.bouton1').click(function(){
+			$('.Presentation').css('visibility','visible');
+			$('#tout').css('visibility','visible');
+		});
+	</script>
 </body>
 		
 

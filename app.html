@@ -20,23 +20,25 @@
 		<link rel="stylesheet" type="text/css" href="CSS/environnement.css" media="all" />
 		<link rel="stylesheet" type="text/css" href="CSS/header_footer.css" media="all" />
 		<link rel="stylesheet" type="text/css" href="CSS/presentation.css" media="all" />
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css" media="all" />
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 		
 
 </head>
-<header>
-
-	<nav>
-		<ul id="menu">
-			<div><li><a href="pres.html">Pr&eacutesentation</a></li></div>
-			<div><li><a href="env.html">Environnement</a></li></div>
-			<div><li><a href="page.html"><img src="CSS/logo.png" alt="logo" /></a></li></div>
-			<div><li><a href="app.html">Apprendre</a></li></div>
-			<div><li><a href="apdn.html">A propos</a></li></div>
-		</ul>
-	</nav>
-
-</header>
 <body>
+	<div class="row">
+
+		<div class="navbar  navbar-fixed-top">
+			<ul id="menu">
+				<div><li><a href="pres.html">Pr&eacutesentation</a></li></div>
+				<div><li><a href="env.html">Environnement</a></li></div>
+				<div class="spec"><li><a href="page.html"><img src="CSS/logo.png" alt="logo" /></a></li></div>
+				<div><li><a href="app.html">Apprendre</a></li></div>
+				<div><li><a href="apdn.html">A propos</a></li></div>
+			</ul>
+		</div>
+
+	</div>
 <div id="app">		
 		<div class="orange">
 			<center><h1>Bien commencer avec Java</h1></center>
@@ -93,13 +95,19 @@
 			</div>
 		</div>
 		
-		<div class="item1">
-			<h4><a href="app.html">Se former</a></h4>
-		</div>
-		
-		<div class="item2">
-			<h4><a href="apdn.html">A propos de nous</a></h4>
-		</div>
+		<div class="col-md-1">
+				<div class="items">
+					<div class="item1">
+						<a href ="app.html"><i style ="color: orange;" class="fab fa-leanpub fa-3x"></i></span></a></br>
+						<p>Se former</p>
+					</div>
+				
+					<div class="item2">
+						<a href="apdn.html"><i style ="color: orange;" class="fas fa-users fa-3x"></i></span></a></br>
+						<p>A propos</p>
+					</div>
+				</div>
+			</div>
 	</div>
 	
 </body>

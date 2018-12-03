@@ -1,15 +1,5 @@
 /*propriétés du header */
 
-header {				
-	background-color: rgba(0,0,0,0);
-	display:flex;
-	position:fixed;
-	top:0;
-	width:100%;
-	font-size:20px;
-	padding-bottom:1vh;
-	margin-left:15%;
-}
 
 img {			/*logo java */
 	max-width:100%;
@@ -17,9 +7,9 @@ img {			/*logo java */
 	vertical-align:middle;
 }
 
-header img:hover {
-	transform:scale(1.5);
-
+#menu .spec a:hover {
+	border:0;
+	transform:scale(1.5,1.5);
 }
 
 
@@ -27,7 +17,6 @@ header img:hover {
 	
 text-align:center;       /*Centrer le bandeau au milieu de la ligne et chaque élément au milieu de sa case */
 color: white;			 /* Le texte du bandeau sera blanc */
-margin-left: 0.5vw;
 justify-content: center;
 display: flex;
 }
@@ -50,7 +39,7 @@ display:inline-block;	/* met le menu sous forme de bloc */
 padding:1vw 3vw;		/* taille du bloc */
 color:#fff;				/*couleur de la police */
 font-family:Comic Sans MS, Comic Sans, cursive;
-
+font-size:20px;
 }
 
 #menu a:hover{

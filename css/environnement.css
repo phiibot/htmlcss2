@@ -2,13 +2,12 @@
 	background-image:url("image3.png");				/*fond général de la page*/ 
 	display:flex;
 	justify-content:space-between;
-	padding-right:0px;
 
 	background-repeat: no-repeat;
 	background-size:cover;						/*image qui s'adapte à la taille de la fenêtre*/
-	height:100vh;		/*hauteur de 100%*/
+	height:100vh;
 	width:100%;
-	
+	margin:0;
 	font-family:arial;
 	font-size:12px;
 }
@@ -44,9 +43,24 @@ td, th {
 
 #env a {
 	text-decoration:bold;
-	color:#FFF;
+	color:#000;
 }
 
 #env a:hover {
 	color:#000;
+}
+
+.intro{				/*gros paragraphe de l'onglet présentation*/
+	padding:2%;
+	color:white;
+	margin-top:8%;
+	margin-left:20%;
+	background-color:rgba(255,255,255,0.1);
+	margin-right:4%;
+	margin-bottom:5%;
+	font-size:25px;
+	font-weight:bold;
+	overflow:auto;
+	
+	
 }
