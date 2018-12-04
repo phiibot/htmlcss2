@@ -10,25 +10,12 @@ html{
   scroll-behavior: smooth;
 }
 
-#env .items{
-	margin-top:100%;
-	float:right;
-	display:flex;
-	flex-direction:column;
-	width:auto;
-	background-color:rgba(255,255,255,0.5);
-	border-radius:10px 0 0 10px;
-	padding-right:8%;
-	padding-left:2%;
-	padding-top:2%;
-	padding-bottom:2%;
-}
 
-#accueil .items,#pres .items,#app .items, #apdn .items{
+#accueil .items,#pres .items,#app .items, #apdn .items, #env .items{
 	float:right;
 	display:flex;
 	flex-direction:column;
-	margin-top:250%;
+	margin-top:40vh;
 	width:auto;
 	background-color:rgba(255,255,255,0.5);
 	border-radius:10px 0 0 10px;
@@ -72,7 +59,7 @@ html{
 
 
 @media screen and (max-width:800px){
-    .row #menu a, #pres .trad,#pres .trad1, #pres .pres1 p, table, .sommaireapp, .paragraphedernier, footer, figcaption, #apdn .leftBox h1, .events .details p, #apdn .content p, .details a{
+    .row #menu a, #pres .trad,#pres .trad1, #pres .pres1 p, table, .sommaireapp, .paragraphedernier, footer, figcaption, #apdn .leftBox h1, .events .details p, #apdn .content p, .details a, #env .intro, #env td, #env th{
         font-size:15px;
     }
     
@@ -131,13 +118,14 @@ html{
 		margin-top:0;
 	}
 	#env .intro{
-		margin-bottom:0;
+		margin-bottom:2%;
+		margin-right:-10%;
 	}
 }
 
 @media screen and (min-width:800px) and (max-width:1100px){
 	.items{
-		margin-top:-2000px;
+		margin-top:-20000px;
 		visibility:hidden;
 	}
 	#accueil .hjt h1{
@@ -151,6 +139,7 @@ html{
 		width:90vw;
 		margin-top:15%;;
 		margin-left:auto;
+		margin-right:auto;
 		margin-bottom:20%;
 		font-size:15px;
 	}
