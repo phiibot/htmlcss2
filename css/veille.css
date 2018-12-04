@@ -59,10 +59,19 @@ html{
 
 
 @media screen and (max-width:800px){
-    .row #menu a, #pres .trad,#pres .trad1, #pres .pres1 p, table, .sommaireapp, .paragraphedernier, footer, figcaption, #apdn .leftBox h1, .events .details p, #apdn .content p, .details a, #env .intro, #env td, #env th{
+    .row #menu a, #pres .trad,#pres .trad1, #pres .pres1 p, table, .sommaireapp, .paragraphedernier, footer, figcaption, #apdn .leftBox h1, .events .details p, #apdn .content p, .details a, #env .intro tr{
         font-size:15px;
     }
-    
+    footer {
+		font-size:10px;
+	}
+	#app .orange {
+		width:100%;
+	}
+	#S1, #S2, #S3, #S4, #S5, #S6{
+		width:100%;
+		margin:auto;
+	}
     .content{
         width:100%
     }
@@ -121,11 +130,14 @@ html{
 		margin-bottom:2%;
 		margin-right:-10%;
 	}
+	#apdn .leftBox{
+		width:100%;
+	}
 }
 
 @media screen and (min-width:800px) and (max-width:1100px){
 	.items{
-		margin-top:-20000px;
+		margin-top:-2000px;
 		visibility:hidden;
 	}
 	#accueil .hjt h1{
@@ -139,7 +151,6 @@ html{
 		width:90vw;
 		margin-top:15%;;
 		margin-left:auto;
-		margin-right:auto;
 		margin-bottom:20%;
 		font-size:15px;
 	}
